@@ -22,6 +22,12 @@ class Author(object):
     def load(self, data: dict):
         if 'nom' in data.keys():
             self.name = data['nom']
+        if 'challenges' in data.keys():
+            self.challenges = data['challenges']
+        if 'solutions' in data.keys():
+            self.solutions = data['solutions']
+        if 'validations' in data.keys():
+            self.validations = data['validations']
         if 'score' in data.keys():
             self.score = int(data['score'])
         if 'position' in data.keys():
