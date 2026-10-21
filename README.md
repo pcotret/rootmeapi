@@ -1,5 +1,9 @@
 # RootMe API
 
+## API requests limitations
+https://api.www.root-me.org/
+> API rate limit: 20 req/min
+
 **This work is based on the following pip package: https://pypi.org/project/rootmeapi**
 
 [![Build Status](https://api.travis-ci.org/RemiGascou/rootmeapi.svg?branch=main)](https://api.travis-ci.org/RemiGascou/rootmeapi.svg?branch=main)
